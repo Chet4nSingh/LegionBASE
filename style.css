@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 300vh;
+    font-family: Nunito, Poppins, Roboto; 
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-attachment: fixed;
+}
+
+.landing-page-container {
+    width: 85%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.landing-page-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.landing-page-container nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    margin-right: 1em;
+}
+
+.landing-page-container nav ul li a {
+    text-decoration: none;
+    color: white;    
+}
+
+a[href="#connectwallet"] {
+    border: 1px solid white;
+    padding: 1em 2em;
+    border-radius: 4em;
+}
+
+.landing-page-container main {
+    margin: 4em 0;
+    display: flex;
+}
+
+.landing-page-container main .content {
+    max-width: 50%;    
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4em;
+}
+
+.landing-page-container main .content .content-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1em;
+}
+
+.landing-page-container main .content .content-text p {
+    font-size: 1.2rem;
+}
+
+.landing-page-container main .content .content-cta {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4em;
+}
+
+.landing-page-container main .content .content-cta .primary-cta {
+    text-decoration: none;
+    color: #333;
+    padding: 1em 2.5em;
+    border-radius: 4em;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.landing-page-container main .content .content-cta .secondary-cta {
+    text-decoration: none;
+    color: white;   
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 1em;
+}
+
+.landing-page-container footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em;
+    background-color: rgba(255, 255, 255, 0.162);   
+    border-radius: 2em; 
+}
+
+.landing-page-container footer .footer-card .heading {
+    font-size: 1.2rem;
+}
+
+.landing-page-container footer .footer-card .value {
+    font-size: 3rem;
+}
+
+.landing-page-container footer .art {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2em;
+}
+
+.landing-page-container footer .art .text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2em;    
+}
+
+.landing-page-container footer .art .text .value-two {
+    font-size: 1.5rem;
+}
+
+.landing-page-container footer .art .profiles {
+    display: flex;      
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 50%;
+    margin: -1em;
+    background-position: top;
+    background-size: 100%;
+}
+
+/* HOT AND TRENDING */
+
+.hat-container {
+    width: 85%;
+    min-height: 100vh;
+    margin: 6em auto 0;
+    display: flex;
+    gap: 2em;
+}
+
+.hat-images, .hat-content {
+    flex-basis: 50%;
+    padding: 4em;
+}
+
+.hat-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 16em;
+    justify-content: center;
+    align-content: center;    
+    row-gap: 4em;
+    column-gap: 2em;
+    padding: 2em;
+}
+
+.hat-image-card {    
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px -2px #333;
+}
+
+.hat-image-card:nth-of-type(1) {    
+    background-image: url(images/hayden-hunt-0sHq11UuB8w-unsplash.jpg);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+.hat-image-card:nth-of-type(2) {    
+    background: url(images/caleb-Ra84n1m8pBs-unsplash.jpg) no-repeat;
+    background-size: 110%;
+    background-position: top;
+}
+
+.hat-image-card:nth-of-type(3) {    
+    background-image: url(images/yuliia-tretynychenko-OO2y0p4XsZI-unsplash.jpg);
+    background-size: 120%;
+    background-position: center;
+}
+
+.hat-image-card:nth-of-type(4) {    
+    background-image: url(images/elias-jonassonn-Aokt_XVcxGE-unsplash.jpg);
+    background-size: 105%;
+    background-position: bottom;
+}
+
+.hat-content {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2em;
+}
+
+.hat-content p:first-child {
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+
+.hat-content h2 {
+    font-size: 3rem;
+}
+
+.hat-content p:last-child {
+    font-size: 1.2rem;
+}
+
+.hat-content a {
+    text-decoration: none;
+    color: white;   
+    display: flex;
+    justify-content: start;    
+    align-items: center;
+    gap: 1em;
+}
+
+
+
+
+
+
+
+
